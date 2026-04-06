@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "wrangler dev",
     "lint": "eslint src",
-"deploy": "wrangler deploy src/worker.ts --name cloudflare-temp-email --compatibility-date 2026-04-06 --minify",
+"deploy": "wrangler deploy src/worker.ts --name cloudflare-temp-email --compatibility-date 2026-04-06 --compatibility-flag nodejs_compat --minify",
+
 
 
     "start": "wrangler dev",

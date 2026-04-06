@@ -1,0 +1,13 @@
+name = "cloudflare-temp-email"
+main = "src/index.ts"
+compatibility_date = "2026-04-06"
+
+[vars]
+PREFIX = "ai"
+DOMAIN = "wealthcompass.top"
+ADMIN_PASS = "yoursecretpassword" # 这里你可以改一个你喜欢的管理密码
+
+[[d1_databases]]
+binding = "DB"
+database_name = "temp-email"
+database_id = "temp-email" # 一般这里可以填数据库名字，或者留空让它自动匹配

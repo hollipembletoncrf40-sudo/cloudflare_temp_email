@@ -11,5 +11,5 @@ ADMIN_PASS = "yoursecretpassword" # 设置一个你喜欢的管理密码
 [[d1_databases]]
 binding = "DB"
 database_name = "temp-email"
-database_id = "这里填入你在 Cloudflare D1 页面拿到的那串长 ID" 
+database_id = "25891bb3-e9c9-4675-9cca-f330dfb49f5b" 
 

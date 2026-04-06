@@ -6,7 +6,8 @@ compatibility_flags = [ "nodejs_compat" ] # 这个必须加，解决刚才那一
 [vars]
 PREFIX = "ai"
 DOMAIN = "wealthcompass.top"
-ADMIN_PASS = "yoursecretpassword" # 设置一个你喜欢的管理密码
+ADMIN_PASS = "123456pass"
+
 
 [[d1_databases]]
 binding = "DB"
